@@ -1,0 +1,1 @@
+export async function searchNotes(q){return fetch("/api/notes/search",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({query:q})}).then(r=>r.json())}export const demoLabel="RepoGo 原创假笔记搜索";

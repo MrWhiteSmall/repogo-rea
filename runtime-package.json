@@ -1,0 +1,10 @@
+{
+  "name": "repogo-rea-runtime",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "rea-agents": "6.8.0",
+    "@modelcontextprotocol/client": "2.3.1"
+  }
+}
